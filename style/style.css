@@ -1,0 +1,67 @@
+body{
+	font-family: 'Amatic SC', cursive;
+	/* background: #342355; */
+}
+
+.body{ padding: 5px; }
+
+.item{
+	/* background: #342355; */
+	height: 30em;
+	margin: 5px;
+	text-align: center;
+	line-height: 50px;
+	font-weight: 600;
+}
+
+/* childish */
+.child1-item{
+	display: flex;
+	padding: 10px;
+	background: white;
+	line-height: 20px;
+	text-align: left;
+	justify-content: space-between;
+}
+.child2-item{
+	background: white;
+	margin-bottom: 3em;
+	height: 100%;
+}
+
+/* childish-childish */
+.child1-child-item{
+	
+}
+
+/* flex stuff */
+
+.body{
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+
+.item{
+	width: 25em;
+	/* background: #342355; */
+}
+.item-wrap {
+	width: 50em;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+/* childish instagram items */
+
+.item-ig{
+	width: 100px;
+	height: 100px;
+	margin: 5px; 
+	/* background: #342355; */
+}
+
+.fa {
+	margin: 10px;
+	color: #666666;
+}

@@ -1,0 +1,29 @@
+body {
+    -webkit-animation-name: example; /* Chrome, Safari, Opera */
+    -webkit-animation-duration: 5s; /* Chrome, Safari, Opera */
+    animation-name: example;
+    animation-duration: 5s;
+}
+
+/* Chrome, Safari, Opera */
+@-webkit-keyframes example {
+    0%   {background-color: #8a3ab9;}
+    15%  {background-color: #4c68d7;}
+    30%  {background-color: #cd486b;}
+    45% {background-color: #fbad50;}
+    65% {background-color: #fccc63;}
+    85% {background-color: #bc2a8d;}
+    100% {background-color: #e95950;}
+}
+
+/* Standard syntax */
+@keyframes example {
+     0%   {background-color: #8a3ab9;}
+    15%  {background-color: #4c68d7;}
+    30%  {background-color: #cd486b;}
+    45% {background-color: #fbad50;}
+    65% {background-color: #fccc63;}
+    85% {background-color: #bc2a8d;}
+    100% {background-color: #e95950;}
+    100% {background-color: #5cb85c;}
+}
